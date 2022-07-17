@@ -1,0 +1,48 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.area-text {
+    resize: none;
+    background-color: #fafafa;
+}
+
+
+#input {
+    width: 0;
+    border: none;
+}
+
+#input:focus {
+    outline: none;
+}
+
+.cm-b {
+    text-align: center;
+    position: sticky;
+    top: 0;
+}
+.cm-b button {
+    background-color: gray;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 0 0 4px 4px;
+}
+
+.box {
+    margin: 0 10vw;
+}
+
+@media only screen and (max-width: 500px) {
+    #input {
+        width: 100px;
+        background-color: #ececec;
+    }
+}
